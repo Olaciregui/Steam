@@ -1,0 +1,224 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: cal sans;
+}
+
+
+
+header ul{
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 241, 241);
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+    
+}
+.principal h2{
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.ayudas{
+    display: flex;
+    background-color: rgb(53, 53, 53);
+    color: white;
+    width: 100%;
+    justify-content: center;
+    gap: 50px;
+    height: 80px;
+    align-items: center;
+    font-size: 17px ;
+}
+
+.amarillo{
+    background-color: yellow;
+    border-radius: 5px;
+margin: 5px;
+font-weight:bolder;
+padding: 5px;
+}
+
+.carreras{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+    
+    width: 90%;
+    background-color: rgb(241, 241, 241);
+}
+
+.carreras-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.carrera-duo{
+    display: flex;
+    gap: 35px;
+}
+
+.carrera-item{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: white;
+    padding: 50px;
+    border-radius: 16px;
+    height: 300px;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    
+}
+
+.vermas{
+    background-color: yellow;
+    font-weight: bold;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    
+    padding: 15px;
+}
+
+
+.modalidades{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    color: #ffffff;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.modalidad{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+    font-size: 18px;
+}
+
+
+.muestra{
+    display: flex;
+    margin: 0px 0px 0px 50px;
+    border: 1px solid yellow;
+    padding: 30px;
+    height: 30px;
+    align-items: center;
+    border-radius: 15px; 
+    font-weight: bold;
+    
+}
+
+.modalidad-item{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    height: 400px;
+    padding: 10px;
+    gap: 30px;
+    border-radius: 15px;
+    font-size: 20px;
+    align-items: center;
+
+
+}
+.lugar_mod{
+    background-color: yellow;
+    height: 50px;
+    margin-top: 67px;
+    width: 105%;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+
+.lugar_mod2{
+    background-color: yellow;
+    height: 50px;
+    margin-top: 24px;
+    width: 104.5%;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bolder;
+    
+    
+    
+    
+    
+}
+
+.cursos{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    padding: 10px ;
+
+}
+.cursos-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 22px;
+}
+.cursos-present{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.steamKids{display: flex; font-size: 40px;}
+.cursosDuo{
+    display: flex;
+    gap: 30px;
+}
+
+.cursos-item{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: white;
+    height: 120px;
+    grid:10px;
+    padding: 10px;
+    border-radius: 15px;
+    gap: 5px;
+}
