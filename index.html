@@ -156,13 +156,13 @@
             </div>
         </div>
         <div class="cursos">
-            <div class="cursos-present">
-                <p><span>No solo los adultos pueden desarrollar sus habilidades, conoce...</span></p>
+            <div class="cursos-present" style="gap: 20px;">
+                <p><span style="padding: 20px;">No solo los adultos pueden desarrollar sus habilidades, conoce...</span></p>
                 <div class="steamKids">
                     <p><span>STEAM</span></p>
                     <p><span class="amarillo">FOR KIDS!</span></p>
                 </div>
-                <p>Descubre un universo de oportunidades en tecnología con opciones presenciales, cursos virtuales en vivo y aprendizaje virtual a tu ritmo, para impulsar tu carrera en el ámbito tecnológico.</p>
+                <p style="width: 630px; text-align: center; padding: 30px;">Descubre un universo de oportunidades en tecnología con opciones presenciales, cursos virtuales en vivo y aprendizaje virtual a tu ritmo, para impulsar tu carrera en el ámbito tecnológico.</p>
             </div>
             <div class="cursos-list">
                     <div class="cursosDuo">
@@ -203,90 +203,106 @@
             </div>
         </div>
         <div class="proyectos">
-            <div><p><span>
-                Conoce algunos proyectos STEAM</span></p></div>
+            <h2>Conoce algunos proyectos STEAM</h2>
+            <div class="videos">
                 <div><video src=""></video></div>
                 <div><video src=""></video></div>
                 <div><video src=""></video></div>
+            </div>
         </div >
         <div class="beneficios">
-            <p><h3>
-            Aprende con tu modalidad favorita y con retos desafiantes</h3></p>
-            <p><span>En STEAM encuentras múltiples formas de aprender, ya sea con clases presenciales,
-                 clases virtuales guiadas con un tutor experto o con contenido on demand para aprender en
-                 el momento que mejor te convenga.
-            </span></p>
-            <div>
-                <div><p><span>Aprende con tu metodología favorita</span></p></div>
-                <div><p><span>Acompañamiento semi personalizado</span></p></div>
-                <div><p><span>Desarrolla habilidades de alto impacto</span></p></div>
-                <div><p><span>Modalidad de pagos flexible</span></p></div>
+            <div class="ben-intro">
+                <h3>Aprende con tu modalidad favorita y con <span class="amarillo" width style="color: #000; width: 100px;">retos desafiantes</span></h3>
+                <p style="font-size: 18px">En STEAM encuentras múltiples formas de aprender, ya sea con clases presenciales,
+                    clases virtuales guiadas con un tutor experto o con contenido on demand para aprender en
+                    el momento que mejor te convenga.
+                </p>
+            </div>
+            <div class="beneficios-list">
+                <div class="beneficios-items">
+                 <span class="beneficio">Aprende con tu metodología favorita</span>
+                 <span class="beneficio">Acompañamiento semi personalizado</span>
+                </div>
+                <div class="beneficios-items">
+                    <span class="beneficio">Desarrolla habilidades de alto impacto</span>
+                    <span class="beneficio">Modalidad de pagos flexible</span>
+                </div>
             </div>
         </div>
         <div class="egresados">
-            <p><h3>Conoce el impacto de STEAM en sus egresados</h3></p>
-            <p><span>Su testimonio es fuente de inspiración para toda nuestra comunidad.</span></p>
-            <div>
+
+            <h3 style="font-size: 30px; width: 500px; text-align: center;">Conoce el impacto de STEAM en sus <span class="amarillo" style="color: black;margin: 3px;">egresados</span></h3>
+            <p>Su testimonio es fuente de inspiración para toda nuestra comunidad.</p>
+            <div class="videos">
                 <div><video src=""></video></div>
                 <div><video src=""></video></div>
             </div>
         </div>
-        <div class="form-container">
+        <section class="form-container">
     <h1>Inscríbete a una clase de MUESTRA</h1>
     <h2>Elige tu curso o carrera</h2>
     <form>
         <div class="form-section-title">Información del estudiante</div>
-
+        
         <div class="form-group">
-            <div class="form-field">
-                <label for="nombre">Nombre del estudiante *</label>
-                <input type="text" id="nombre" name="nombre" required>
+            
+            
+            <div class="form-pair">
+                <div class="form-field">
+                    <label for="nombre">Nombre del estudiante *</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                
+                <div class="form-field">
+                    <label for="edad">Edad *</label>
+                    <input type="number" id="edad" name="edad" required>
+                </div>
+                
             </div>
-
-            <div class="form-field">
-                <label for="edad">Edad *</label>
-                <input type="number" id="edad" name="edad" required>
+            
+            <div class="form-pair">
+                <div class="form-field">
+                    <label for="telefono">Teléfono *</label>
+                    <input type="tel" id="telefono" name="telefono" required>
+                </div>
+                
+                <div class="form-field">
+                    <label for="carrera">¿En qué carrera está interesado? *</label>
+                    <select id="carrera" name="carrera" required>
+                        <option value=""></option>
+                        <option value="carrera1">Carrera 1</option>
+                        <option value="carrera2">Carrera 2</option>
+                    </select>
+                </div>
+                
             </div>
-
-            <div class="form-field">
-                <label for="telefono">Teléfono *</label>
-                <input type="tel" id="telefono" name="telefono" required>
+            <div class="form-pair">     
+                <div class="form-field">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-field">
+                    <label for="curso">¿En qué curso está interesado? *</label>
+                    <select id="curso" name="curso" required>
+                        <option value=""></option>
+                        <option value="curso1">Curso 1</option>
+                        <option value="curso2">Curso 2</option>
+                    </select>
+                </div>
+                
             </div>
-
-            <div class="form-field">
-                <label for="carrera">¿En qué carrera está interesado? *</label>
-                <select id="carrera" name="carrera" required>
-                    <option value="">Seleccione una opción</option>
-                    <option value="carrera1">Carrera 1</option>
-                    <option value="carrera2">Carrera 2</option>
-                </select>
+                <div class="form-field" style="flex: 1 1 100%;">
+                    <label for="ciudad">Ciudad de residencia *</label>
+                    <input type="text" id="ciudad" name="ciudad" required>
+                </div>
             </div>
-
-            <div class="form-field">
-                <label for="email">Email *</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-
-            <div class="form-field">
-                <label for="curso">¿En qué curso está interesado? *</label>
-                <select id="curso" name="curso" required>
-                    <option value="">Seleccione una opción</option>
-                    <option value="curso1">Curso 1</option>
-                    <option value="curso2">Curso 2</option>
-                </select>
-            </div>
-
-            <div class="form-field" style="flex: 1 1 100%;">
-                <label for="ciudad">Ciudad de residencia *</label>
-                <input type="text" id="ciudad" name="ciudad" required>
-            </div>
-        </div>
-
-        <div class="submit-button">
-            <button type="submit">Enviar</button>
+            
+            <div class="submit-button">
+            <button id="Enviar" type="submit">Enviar</button>
         </div>
     </form>
-        </div>
+        </section>
         <div class="mapita">
             <div> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d489.5714345323313!2d-74.80767503268804!3d10.99568248699361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef432ae379770b5%3A0xe9055e19b400f026!2sSTEAM%20Academy!5e0!3m2!1ses-419!2sco!4v1745697727154!5m2!1ses-419!2sco" width="1343" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
     </div>
